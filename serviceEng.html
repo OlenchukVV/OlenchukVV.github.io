@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ресторан - Галактика Смаку</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Kyiv, Kyiv region, Ukraine</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Monday - Friday : 09:00 - 21:00</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+380 96 824 7085</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"></i>Galaxy of Taste</h2>
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="serviceEng.html" class="nav-item nav-link active">Eng</a>
+                <a href="service.html" class="nav-item nav-link active">Ua</a>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="indexEng.html" class="nav-item nav-link">Home</a>
+                <a href="serviceEng.html" class="nav-item nav-link active">Menu</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Information</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="bookingEng.html" class="dropdown-item">Booking</a>
+                        <a href="teamEng.html" class="dropdown-item">Personal</a>
+                        <a href="testimonialEng.html" class="dropdown-item">Reviews</a>
+                    </div>
+                </div>
+                <a href="contactEng.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Let's taste it!<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-2.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Menu</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Information</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase"></h6>
+                <h1 class="mb-5">Main dishes</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Borsh with pampushkas</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Cold kvass soup</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Solyanka team</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Bograch</h4>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Borsh with pampushkas</h3>
+                                    <p class="mb-4">Ukrainian liquid dish cooked from chopped beets, cabbage with the addition of potatoes, beans, meat and various seasonings</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Delicious</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Hot</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/okroshka.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Cold kvass soup</h3>
+                                    <p class="mb-4">A kind of cold vegetable-based soup</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Fresh and saturated with various vegetables</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Sometimes served cold</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/solianka.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Solyanka team</h3>
+                                    <p class="mb-4">It is served with olives and assorted sausages and meats</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Many types of sausage and meat</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Served with a slice of lemon</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/bohrach.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Bograch</h3>
+                                    <p class="mb-4">Vegetable Soup</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Very fragrant and tasty</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Red and fragrant</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Service Start 2 -->
+    <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase"></h6>
+                <h1 class="mb-5">Appetizer</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-5" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Kiev-style cutlet</h4>
+                        </button5>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-6" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Vareniki</h4>
+                        </button6>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-7" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Galushki</h4>
+                        </button7>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-8" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Fat</h4>
+                        </button8>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-5">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/kotlet.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Kiev-style cutlet</h3>
+                                    <p class="mb-4">A type of cutlet in the form of a battered chicken fillet wrapped in a piece of cold butter</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Deep-fried</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>The fillings include cheese, mushrooms, greens, egg yolk, etc.</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-6">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/vareiniki.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Vareniki</h3>
+                                    <p class="mb-4">Ukrainian national dish in the form of boiled unleavened dough and a filling of potatoes, meat, mushrooms, vegetables, fruits, berries and cheese</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Different type of filling</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Homemade dough recipe</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-7">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/galushki.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Galushki</h3>
+                                    <p class="mb-4"> a dish made of boiled dough in the form of squares or balls. Unlike vareniki, they have no filling.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Can be added to soup</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Can be submitted separately</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-8">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/caption.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Fat</h3>
+                                    <p class="mb-4">animal subcutaneous fat, most often pork.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>A great appetizer, you can serve it with borscht with donuts</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>A large variety of various lard with seasonings</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Service Start 4 -->
+    <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase"></h6>
+                <h1 class="mb-5">Desserts</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-9" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Sirniki</h4>
+                        </button5>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-10" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Verguns</h4>
+                        </button6>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-11" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Deruns</h4>
+                        </button7>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-12" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Mazuriki</h4>
+                        </button8>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-9">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/sirniki.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Sirniki</h3>
+                                    <p class="mb-4">the dish is especially warm and homemade, which evokes the most pleasant associations.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Served with various additives</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Well fried with powdered sugar.</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-10">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/varguni.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Verguns</h3>
+                                    <p class="mb-4">homemade goodies in the form of oblong strips.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Very fragrant</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Homemade sour milk recipe</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-11">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/deruni.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Derunis</h3>
+                                    <p class="mb-4">a widely known and very tasty national dish made from potatoes.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Delicious served with sour cream</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>There are sweet fillings</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-12">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mazuriki.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Mazuriki</h3>
+                                    <p class="mb-4">A recipe for mazuriky, or turkey and cheese cutlets in the form of sausages, breaded in crispy breadcrumbs, a dish of modern Ukrainian cuisine.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Sweet and plain filling</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Delicious, fragrant and pleasant</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In deatil<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+<!-- Service Start 3 -->
+    <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase"></h6>
+                <h1 class="mb-5">Drinks</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-13" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Water</h4>
+                        </button5>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-14" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Morse</h4>
+                        </button6>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-15" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Kvass</h4>
+                        </button7>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-16" type="button">
+                            <i class="fa-2x me-3"></i>
+                            <h4 class="m-0">Tea</h4>
+                        </button8>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-13">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/voda.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Water</h3>
+                                    <p class="mb-4">Crystal clear.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>With gases and without</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Served free of charge with meals.</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-14">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mors.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Morse</h3>
+                                    <p class="mb-4">A refreshing fruit and berry drink.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Cold from fruits and berries</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Homemade recipe and cooked fresh</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-15">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Kvass</h3>
+                                    <p class="mb-4">The traditional Slavic drink is obtained by the method of "live" fermentation.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Cold refreshing drink</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>From live fermentation</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In deatil<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-16">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/tea.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Tea</h3>
+                                    <p class="mb-4">Hot drink, delicious</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Delicious</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Different tastes and smells</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">In detail<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kyiv, Kyiv region, Ukraine</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+380 96 824 7085</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>resturantukraine@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Mode of operation</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09:00 - 21:00</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09:00 - 18:00</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Write a review</h4>
+                    <p>Did you like our restaurant? Write a review .</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Write">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Send</button>
+                    </div>
+                </div>
+            </div>
+     </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
