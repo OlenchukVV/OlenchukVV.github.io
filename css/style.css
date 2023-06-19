@@ -10,6 +10,16 @@
     font-weight: 600 !important;
 }
 
+.logo {
+  width: 70px; /* Змініть розміри належним чином */
+  height: 70px;
+}
+
+.logo-container {
+  text-align: left;
+  margin-left: -40px;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
